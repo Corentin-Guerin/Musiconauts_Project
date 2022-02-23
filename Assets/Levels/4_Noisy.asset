@@ -16,8 +16,8 @@ MonoBehaviour:
   music: {fileID: 8300000, guid: aac42524ac03dfe46a66e29a3c4bbacd, type: 3}
   artistName: Noisy
   musicName: Put a Record On
-  albumName: I Wish I Was a...
-  genre: 
+  albumName: Royaume-Uni
+  genre: Breakbeat / Hip hop
   mainColors: []
   difficultyMin: 3
   difficultyMax: 7
@@ -25,4 +25,8 @@ MonoBehaviour:
   albumImage: {fileID: 21300000, guid: 4c5ae1609b584f04eafbba2c7f2baa2e, type: 3}
   sceneSprite: {fileID: 0}
   artistsSprite: {fileID: 0}
-  description: 
+  description: "Cody (chant), Connor (guitare) et Spencer (production et guitare)
+    ont trouv\xE9 leur style en dynamitant tous les autres : breakbeat, rap, jungle,
+    pop\u2026 Passez les Happy Mondays au mixeur Prodigy, acc\xE9l\xE9rez encore
+    le BPM, ajoutez un peu de morgue britannique et vous obtenez la formule explosive
+    de Noisy. Attention \xE0 l\u2019effet de souffle."

@@ -16,8 +16,8 @@ MonoBehaviour:
   music: {fileID: 8300000, guid: 78478ea293e348c40adcf78261b30845, type: 3}
   artistName: Flo/so
   musicName: You
-  albumName: You
-  genre: 
+  albumName: France
+  genre: Musiques Electroniques
   mainColors: []
   difficultyMin: 2
   difficultyMax: 5
@@ -25,4 +25,11 @@ MonoBehaviour:
   albumImage: {fileID: 21300000, guid: 7229225244dcf334794e420f7fff017d, type: 3}
   sceneSprite: {fileID: 0}
   artistsSprite: {fileID: 0}
-  description: 
+  description: "Derri\xE8re ces quelques lettres myst\xE9rieuses apparues en 2020
+    se tient en embuscade le producteur fran\xE7ais de pop \xE9lectronique Florian
+    Sauvaire. Install\xE9 \xE0 Londres depuis 2009, l\u2019artiste y exerce ses nombreux
+    talents : batteur de tourn\xE9e et de studio (notamment pour Ghostpoet qu\u2019il
+    accompagnait d\xE9j\xE0 lors des Trans Musicales 2011), membre du duo Deafkid,
+    graphiste, directeur artistique et, last but not least, DJ. Flo/so d\xE9voilera
+    d\u2019ailleurs aux Trans ses mixes euphoriques qui papillonnent de la bass house
+    \xE0 la cumbia digitale en passant par une \xE9lectro-pop funky."

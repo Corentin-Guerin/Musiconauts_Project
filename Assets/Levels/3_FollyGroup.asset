@@ -16,8 +16,8 @@ MonoBehaviour:
   music: {fileID: 8300000, guid: a02a04f505102c04897393bb9b23732d, type: 3}
   artistName: Folly Group
   musicName: Butt No Rifle
-  albumName: Awake and Hungry
-  genre: 
+  albumName: Royaume-Uni
+  genre: Post-Punk
   mainColors: []
   difficultyMin: 2
   difficultyMax: 6
@@ -25,4 +25,9 @@ MonoBehaviour:
   albumImage: {fileID: 21300000, guid: eccbcf8bde9216147955888322e495cf, type: 3}
   sceneSprite: {fileID: 0}
   artistsSprite: {fileID: 0}
-  description: 
+  description: "Apr\xE8s avoir aiguis\xE9 ses crocs et rong\xE9 son frein comme un
+    lion en cage pendant l\u2019ann\xE9e 2020, ce quatuor anglais men\xE9 par le
+    chanteur-batteur Sean Harper est d\xE9sormais pr\xEAt \xE0 mordre tout ce qui
+    bouge. Une guitare qui cavale, des percussions au groove \xE9pileptique, une
+    voix pleine de morgue, une basse rugueuse ; dot\xE9 de cet arsenal, le collectif
+    londonien manigance un post-punk tranchant et imp\xE9tueux, mais aussi ultra-dansant."

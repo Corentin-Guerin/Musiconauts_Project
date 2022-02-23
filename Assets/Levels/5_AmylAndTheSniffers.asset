@@ -16,8 +16,8 @@ MonoBehaviour:
   music: {fileID: 8300000, guid: 23d6e2e1ca4dcfe48a08e1724fac6ad7, type: 3}
   artistName: Amyl and the Sniffers
   musicName: Hertz
-  albumName: Comfort to Me
-  genre: 
+  albumName: Australie
+  genre: Punk rock
   mainColors: []
   difficultyMin: 4
   difficultyMax: 8
@@ -25,4 +25,13 @@ MonoBehaviour:
   albumImage: {fileID: 21300000, guid: e3b421a548e844f4397e92fb23eb1bd0, type: 3}
   sceneSprite: {fileID: 0}
   artistsSprite: {fileID: 0}
-  description: 
+  description: "Une blonde incendiaire en short, trois musiciens \xE0 coupe mulet
+    et un seul mode d\u2019emploi \xE0 appliquer de toute urgence : jouer, boire,
+    brailler, recommencer. Rang\xE9 derri\xE8re la p\xE9troleuse Amy Taylor, le quatuor
+    australien d\xE9braille un punk rock nerveux et revendicatif (le droit d\u2019une
+    femme \xE0 se balader dans un parc sans se faire agresser) qui ne laisse personne
+    indemne. Apr\xE8s avoir rong\xE9 son frein \xE0 Melbourne pendant le confinement,
+    Amyl and the Sniffers (un nom emprunt\xE9 au nitrite d\u2019amyle, mieux connu
+    sous le nom de \"poppers\"), d\xE9barque pour r\xE9veiller tout le monde avec
+    un shoot de rock puissant et imparable. Et c\u2019est fou comme \xE7a fait du
+    bien."
