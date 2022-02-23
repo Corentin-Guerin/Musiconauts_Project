@@ -27,8 +27,6 @@ public class FunctionDisplay : MonoBehaviour
     [SerializeField] private Sprite circleSprite;
     private RectTransform graphContainer;
 
-    public bool parameters_changed = false;
-
     private void Awake()
     {
         graphContainer = transform.Find("graphContainer").GetComponent<RectTransform>();
@@ -79,7 +77,10 @@ public class FunctionDisplay : MonoBehaviour
         List<float> valueList = new List<float>() {};
         for (int i = 0; i < timeStep; i++)
         {
-            valueList.Add( 50 + 25 * Mathf.Sin((deltaT*80/timeStep)*i + parameter_a) + parameter_b * 16 * Mathf.Sin(2f*(deltaT*80/timeStep)*i));
+            // Version 1
+            valueList.Add( 50f + 25f * Mathf.Sin((deltaT*80/timeStep) * i + parameter_a) + parameter_b * 16 * Mathf.Sin(2f * (deltaT * 80 / timeStep) * i));
+            // Version 2
+            //valueList.Add( 50f + 25f * Mathf.Sin((deltaT * 80f / timeStep) * i + parameter_a) + 16f * Mathf.Sin(2f * (deltaT * 80f / timeStep) * i + 4f * parameter_b));
         }
         return valueList;
     }
@@ -166,4 +167,22 @@ public class FunctionDisplay : MonoBehaviour
         rectTransform.localEulerAngles = new Vector3(0, 0, Vector2.SignedAngle(new Vector2(1, 0), dir));
     }
 
+    private void Reset()
+    {
+        random_start_value_a = Random.Range(0f, 6.28f);
+        random_start_value_b = Random.Range(0.3f, 1f);
+
+        valueList = CreateList(random_start_value_a, random_start_value_b);
+        ShowGraph(valueList, color_trace2, 11f);
+        valueList = CreateList(parameter_a, parameter_b);
+        ShowGraph(valueList, color_trace1, 3f);
+
+        parameter_a = 0f;
+        parameter_b = 0f;
+        parameter_a0 = 0f;
+        parameter_b0 = 0f;
+
+        game_won = false;
+
+    }
 }
