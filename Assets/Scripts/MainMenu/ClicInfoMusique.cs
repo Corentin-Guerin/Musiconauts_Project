@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ClicInfoMusique : MonoBehaviour
 {
-    public InfoMusic im;
+   
+   public InfoMusic im;
    [SerializeField]
    private List<GetLevelInfo> infoLevels;
 
@@ -13,8 +14,8 @@ public class ClicInfoMusique : MonoBehaviour
     private string nomDuGroupe;
 
     [SerializeField]
-    private TextMesh nomMusiqueDetail;
-    private string nomMusique;
+    private TextMesh styleMusiqueDetail;
+    private string styleMusique;
 
     [SerializeField]
     private TextMesh originDetail;
@@ -34,10 +35,10 @@ public class ClicInfoMusique : MonoBehaviour
             nomDuGroupe = infoLevels[i].lvl.artistName;
             nomGroupeDetail.text = nomDuGroupe;
 
-            nomMusique = infoLevels[i].lvl.genre;
-            nomMusiqueDetail.text = nomMusique;
+            styleMusique = infoLevels[i].lvl.genre;
+            styleMusiqueDetail.text = styleMusique;
 
-            origin = infoLevels[i].lvl.albumName;
+            origin = infoLevels[i].lvl.origine;
             originDetail.text = origin;
 
             description = infoLevels[i].lvl.description;

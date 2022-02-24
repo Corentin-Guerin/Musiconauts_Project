@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class InfoMusic : MonoBehaviour
 {
     public bool setInfoMusique = false;
-    public GameObject informationMusique;
+    private AudioMainMenu amm;
 
     public void StartGame()
     {
@@ -22,11 +22,14 @@ public class InfoMusic : MonoBehaviour
 
     public void AfficheInfo(bool a)
     {
+        amm = FindObjectOfType<AudioMainMenu>();
+
         if (setInfoMusique == false) 
         {
+            amm.SoundBoutonMenu();
             setInfoMusique = true;
-            Debug.LogWarning(informationMusique);
-            informationMusique.SetActive(a); 
+            //Debug.LogWarning(informationMusique);
+            gameObject.SetActive(a); 
         }
   
     }

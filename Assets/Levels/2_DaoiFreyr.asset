@@ -16,8 +16,9 @@ MonoBehaviour:
   music: {fileID: 8300000, guid: 155aed69d7a7458449eaf8aec56bb669, type: 3}
   artistName: "Da\xF0i Freyr"
   musicName: Think About Things
-  albumName: Islande
+  albumName: "Da\xF0i Freyr"
   genre: Electro-Pop
+  origine: Islande
   mainColors: []
   difficultyMin: 2
   difficultyMax: 6
@@ -25,11 +26,9 @@ MonoBehaviour:
   albumImage: {fileID: 21300000, guid: 373e9141ae6f8104c82301d3aca87ee2, type: 3}
   sceneSprite: {fileID: 0}
   artistsSprite: {fileID: 0}
-  description: "Da\xF0i Freyr P\xE9tursson, de son nom complet, est \xE0 la pop ce
-    que les clownesques Power Rangers sont au monde des super-h\xE9ros. L\u2019Islandais,
-    qui a repr\xE9sent\xE9 l\u2019\xEEle au dernier concours de l\u2019Eurovision,
-    utilise le pouvoir de l\u2019humour plut\xF4t que ses biceps pour inventer des
-    tubes electro-pop funky aussi loufoques qu\u2019\xE9nergiques. Dans ses clips
-    inspir\xE9s des jeux vid\xE9o des ann\xE9es 80 et des nanars avec monstres g\xE9ants,
-    ce grand \xE9chalas (2,08m) aux cheveux longs secoue les bras et les r\xE9f\xE9rences
-    dans tous les sens pour remplir sa mission : faire danser les gens."
+  description: "Da\xF0i Freyr P\xE9tursson, L\u2019Islandais, qui a\nrepr\xE9sent\xE9
+    l\u2019\xEEle au dernier concours de\n l\u2019Eurovision, utilise le pouvoir
+    de l\u2019humour\npour inventer des tubes electro-pop funky\naussi loufoques
+    qu\u2019\xE9nergiques. \nDans ses clips inspir\xE9s des jeux vid\xE9o\ndes ann\xE9es
+    80et des nanars avec\nmonstres g\xE9ants,afin de remplir sa mission :\nfaire
+    danser les gens."

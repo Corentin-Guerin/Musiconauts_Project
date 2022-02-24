@@ -9,7 +9,7 @@ public class GetLevelInfo : MonoBehaviour
     [SerializeField]
     private TextMesh textNomMusique;
     [SerializeField]
-    private TextMesh textStyleMusique;
+    private TextMesh textArtisteMusique;
 
     [SerializeField]
     private SpriteRenderer imageAlbum;
@@ -17,7 +17,7 @@ public class GetLevelInfo : MonoBehaviour
     void Start()
     {
         textNomMusique.text = lvl.musicName;
-        textStyleMusique.text = lvl.genre;
+        textArtisteMusique.text = lvl.albumName;
         imageAlbum.sprite = lvl.albumImage;
 
 

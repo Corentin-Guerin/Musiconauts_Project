@@ -18,9 +18,9 @@ MonoBehaviour:
 
     Guru'
   musicName: Will U
-  albumName: France
+  albumName: Kind Of Guru
   genre: Jazz-Rap
-  origine: 
+  origine: France
   mainColors: []
   difficultyMin: 1
   difficultyMax: 4
@@ -28,9 +28,9 @@ MonoBehaviour:
   albumImage: {fileID: 21300000, guid: 6770006dd03c83e4583b1ead844c5294, type: 3}
   sceneSprite: {fileID: 0}
   artistsSprite: {fileID: 0}
-  description: "Cr\xE9\xE9 en f\xE9vrier 2020,\n ce quintet rennais compos\xE9 d\u2019un
-    soubassophone (Erw\nan Camper), de deux saxophones barytons (Fabien Cariou \net
-    Marie Juste) et d\u2019un batteur (Denis Poulain) cr\xE9e des co\nmpositions
-    hybrides entre hip hop, \xE9lectro, jazz et pop. Jay\n Ree, ex-chanteur de Zenzile
-    et City Kay, pose son flow gr\nave sur les musiques de ces disciples d\u2019un
-    groove f\xE9lin et explosif."
+  description: "Cr\xE9\xE9 en f\xE9vrier 2020, ce quintet rennais \ncompos\xE9 d\u2019un
+    soubassophone (Erwan Camper), \nde deux saxophones barytons \n(Fabien Cariou
+    et Marie Juste) et d\u2019un \nbatteur (Denis Poulain) cr\xE9e des compositions
+    \nhybrides entre hip hop, \xE9lectro, jazz et pop. \nJay Ree, ex-chanteur de
+    Zenzile et City Kay,\npose son flow grave sur les musiques de \nces disciples
+    d\u2019un groove f\xE9lin et explosif."
